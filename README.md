@@ -7,7 +7,7 @@
 ## 使用方法
 
 1. `programs/` 配下に CGI プログラムを配置する．
-2. `docker-compose up` を実行する．
+2. `docker compose up` を実行する．
 3. ブラウザで `http://localhost:8080/cgi-bin/1-1/<file-name>` にアクセスする．
 
 CGI プログラム側を修正したりした場合は `docker compose up --build --force-recreate` を実行する
